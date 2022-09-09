@@ -2,13 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Print the alphabet in lowercase than in uppercase
+ *main - Print the alphabet in lowercase, than in uppercase
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	char lower = 'a';                                                                                      			                char upper = 'A';
+	char lower = 'a';
+	char upper = 'A';
 
 	while (lower <= 'z')
 	{
@@ -20,6 +21,6 @@ int main(void)
 		putchar(upper);
 		upper++;
 	}
-	       	putchar('\n');
+		putchar('\n');
 		return (0);
 }
