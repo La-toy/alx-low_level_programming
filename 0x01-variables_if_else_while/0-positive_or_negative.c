@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* This program will assign a random number to the variable n each time it is executed
+/** 
+ *main - Entry point
+ * 
+ * This program will assign a random number to the variable n each time it is executed
  *
  * Return: Always 0 (Success)
  */
