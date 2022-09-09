@@ -7,8 +7,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{ 
-	char alpha = 'a';                                                                                      			                char upper = 'A';
+{
+	char lower = 'a';                                                                                      			                char upper = 'A';
 
 	while (lower <= 'z')
 	{
@@ -22,4 +22,4 @@ int main(void)
 	}
 	       	putchar('\n');
 		return (0);
-}  
+}
