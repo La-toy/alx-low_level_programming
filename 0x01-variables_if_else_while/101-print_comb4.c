@@ -21,7 +21,7 @@ int main(void)
 				{
 
 					putchar(a);
-					putchat(b);
+					putchar(b);
 					putchar(c);
 					if (a != 55 || b != 56)
 					{
