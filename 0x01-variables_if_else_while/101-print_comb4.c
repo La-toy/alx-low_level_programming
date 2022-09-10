@@ -20,9 +20,9 @@ int main(void)
 				if (c > b && b > a)
 				{
 
-					putchar(a)
-					putchat(b)
-					putchar(c)
+					putchar(a);
+					putchat(b);
+					putchar(c);
 					if (a != 55 || b != 56)
 					{
 
