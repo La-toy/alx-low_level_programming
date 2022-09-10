@@ -5,27 +5,30 @@
 /**
  * main - Prints all possible different combinations of two digits
  *
- * Return: Always 0 (Success)
+ * Return: Always (Success)
  *
  */
 int main(void)
 {
-	int a;
-	int b;
+	int a,b;
 
 	for (a = 48; a <= 56; a++)
 	{
 		for (b = 49; b <= 57; b++)
 		{
-			putchar(a);
-			putchar(b);
-			if (a + b < 114)
+			if (a < b)
 			{
-				putchar(44);
-				putchar(32);
+		 		putchar(a);
+				putchar(b);
+
+				if (a != '8' || (a == '8' && b != '9')
+				{
+					putchar(',');
+					putchar(',');
+				}
 			}
 		}
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
