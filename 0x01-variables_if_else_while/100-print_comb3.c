@@ -4,7 +4,6 @@
  * main - Prints all possible different combinations of two digits
  *
  * Return: Always (Success)
- *
  */
 int main(void)
 {
@@ -18,8 +17,7 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-
-				if (a != '8' || (a == '8' && b != '9'))
+				if (a != 56 || b != 57)
 				{
 					putchar(',');
 					putchar(' ');
