@@ -3,22 +3,21 @@
 /**
  * main - Prints all possible different combinations of two digits
  *
- * Return: Always (Success)
+ * Return: ALways 0 (Success)
  *
  */
 int main(void)
 {
-	int a,b;
+	int a, b;
 
 	for (a = 48; a <= 56; a++)
 	{
 		for (b = 49; b <= 57; b++)
 		{
-			if (a < b)
+			if (b > a)
 			{
 				putchar(a);
 				putchar(b);
-
 				if (a != 56 || b != 57)
 				{
 					putchar(',');
