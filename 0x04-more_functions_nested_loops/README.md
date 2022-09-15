@@ -1,1 +1,1 @@
-Looking at more functions and nested loops 
+This project is a continuation of functions and nested loops 
