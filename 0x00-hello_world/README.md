@@ -1,1 +1,1 @@
-This is my Hello World readme
+This project is about compiling bash scripts using gcc
