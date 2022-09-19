@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/**
+ * Description: Header file containing all the prototype functions
+ * used in the 0x05-pointers_arrays_strings directory.
+ */
+
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -13,5 +18,4 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 
-
-#end if
+#endif
