@@ -1,9 +1,15 @@
 #include <stdio.h>
 
+/**
+ * main - Add one line to the code provided
+ * so that the program prints a[2] = 98.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	int n:
-	int a[5]
+	int n;
+	int a[5];
 	int *p;
 
 	a[2] = 1024;
