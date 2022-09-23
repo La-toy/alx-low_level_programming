@@ -57,7 +57,7 @@ functions written in the project.
     * Letters `l` and `L` are replaced by `1`.
 
 * **8. rot13**
-  * [101-rot13.c](./100-rot13.c): C function that encodes a string to rot13, without
+  * [100-rot13.c](./100-rot13.c): C function that encodes a string to rot13, without
   `switch` or ternary operations and using only one `if` and two loops.
 
 * **9. Numbers have life; they're not just symbols on paper**
