@@ -57,19 +57,19 @@ functions written in the project.
     * Letters `l` and `L` are replaced by `1`.
 
 * **8. rot13**
-  * [8-rot13.c](./8-rot13.c): C function that encodes a string to rot13, without
+  * [101-rot13.c](./100-rot13.c): C function that encodes a string to rot13, without
   `switch` or ternary operations and using only one `if` and two loops.
 
 * **9. Numbers have life; they're not just symbols on paper**
-  * [100-print_number.c](./100-print_number.c): C function that prints an integer
+  * [101-print_number.c](./101-print_number.c): C function that prints an integer
   without using `long`, arrays, pointers, or hard-coded special values.
 
 * **10. A dream doesn't become reality through magic; it takes sweat, determination and hard work**
-  * [101-magic.c](./101-magic.c): C program that prints `a[2] = 98` using pointer magic.
+  * [102-magic.c](./102-magic.c): C program that prints `a[2] = 98` using pointer magic.
     * Completion of [this source code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c).
 
 * **11. It is the addition of strangeness to beauty that constitutes the romantic character in art**
-  * [102-infinite_add.c](./102-infinite_add.c): C function that adds two numbers stored
+  * [103-infinite_add.c](./103-infinite_add.c): C function that adds two numbers stored
   in strings to a buffer.
     * Assumes that strings are never empty and that numbers will always be positive, or 0.
     * Assumes there are only digits stored in the number strings.
@@ -77,7 +77,7 @@ functions written in the project.
     * If result cannot be stored in the buffer, returns `0`.
 
 * **12. Noise is a buffer, more effective than cubicles or booth walls**
-  * [103-print_buffer.c](./103-print_buffer.c): C function that prints the content of an
+  * [104-print_buffer.c](./104-print_buffer.c): C function that prints the content of an
   inputted number of bytes from a buffer.
     * Prints 10 bytes per line.
     * Starts with the position of the first byte in hexadecimal (8 chars), starting with `0`.
