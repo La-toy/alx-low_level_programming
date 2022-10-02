@@ -4,9 +4,10 @@
 /**
  * main - Prints the addition of positive numbers.
  * @argc: The number of arguments passed to the program.
- * @rgv: The array of pointers to the arguments.
+ * @argv: The array of pointers to the arguments.
  *
- * Return: If one of the numbers contains symbols that are non-digits - 1, if not 0.
+ * Return: If one of the numbers contains
+ * symbols that are non-digits - 1, if not 0.
  */
 int main(int argc, char *argv[])
 {
@@ -30,4 +31,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
