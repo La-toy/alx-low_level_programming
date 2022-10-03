@@ -9,7 +9,7 @@
  * @c: The specific char to intialize the array with.
  *
  * Return: If size = 0 and if it fails NULL
- * Pointer to an array\
+ * Pointer to an array
  */
 char *create_array(unsigned int size, char c)
 {
@@ -19,7 +19,7 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 
-	array = malloc(sizeof(char) *size);
+	array = malloc(sizeof(char) * size);
 
 	if (array == NULL)
 		return (NULL);
