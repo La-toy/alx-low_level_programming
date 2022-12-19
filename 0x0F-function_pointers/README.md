@@ -1,2 +1,2 @@
 # C - Function pointers
-This project looks at function pointers which coints to executable code within memory.
+This project looks at function pointers which points to executable code within memory.
